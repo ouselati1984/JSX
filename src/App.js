@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import my_image from './imageInPublic.jpg';
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
           <br />
           <img src="/imageInSrc.jpg" />
           <br />
-          <img src="/imageInPublic.jpg" />
+          <img src={my_image} />
         </div>
         <video width={320} height={240} controls>
           <source src="myVideo.mp4" type="video/mp4" />
